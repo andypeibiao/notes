@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script>
+	function Person() {
+	}
+
+	Person.prototype.name="Nicholas";
+	Person.prototype.age=29;
+	Person.prototype.sayName=function(){
+		alert(this.name);
+	}
+
+	var person1=new Person();
+	person1.name="Greg";
+
+	var person2=new Person();
+
+console.log(person1.hasOwnProperty("name"));//true
+console.log(person2.hasOwnProperty("name"));//false
+
+console.log("name" in person1);//true
+console.log("name" in person2);//true
+
+for (var prop in person1) {
+    console.log(prop);//name   age   sayName
+}
+
+function hasPrototypeProperty(object,pro) {//如此可判断存在于原型中的属性
+	return (!object.hasOwnProperty(pro))&&(pro in object);
+}
+console.log(hasPrototypeProperty(person1,"name"));//false
+console.log(hasPrototypeProperty(person2,"name"));//true
+</script>
+<body>
+
+</body>
+</html>
