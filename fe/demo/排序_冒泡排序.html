@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+6,1,2,7,9,3,4,5,10,8
+</body>
+<script>
+	var arr=[6,1,2,7,9,3,4,5,10,8];
+	var arr1 = [49,38,65,97,76,13,27,49];
+	Bubble_2(arr);
+
+	function Bubble(arr){
+		for(var i = 0;i < arr.length - 1;i++){
+			for(var j = i+1;j < arr.length - 1;j++ ){
+				if(arr[i] > arr[j] ){
+					var temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+					console.log(arr+':'+i+":"+j);
+				}
+			}
+			//console.log(arr+':'+i);
+		}
+	}
+
+	/*
+		设置一标志性变量pos,用于记录每趟排序中最后一次进行交换的位置。由于pos位置之后的记录均已交换到位,故在进行下一趟排序时只要扫描到pos位置即可
+	*/
+	function Bubble1(arr){
+		var i= arr.length -1;  //初始时,最后位置保持不变  
+    while ( i> 0) {   
+      var pos= 0; //每趟开始时,无记录交换  
+      for (var j= 0; j< i; j++)  
+          if (arr[j]> arr[j+1]) {  
+              pos= j; //记录交换的位置   
+              var tmp = arr[j]; arr[j]=arr[j+1];arr[j+1]=tmp;  
+              console.log(arr+':'+i+":"+j);
+          }   
+      i= pos; //为下一趟排序作准备 
+
+    }   
+	}
+	/*
+		传统冒泡排序中每一趟排序操作只能找到一个最大值或最小值,我们考虑利用在每趟排序中进行正向和反向两遍冒泡的方法一次可以得到两个最终值(最大者和最小者) , 从而使排序趟数几乎减少了一半。
+	*/
+	function Bubble_2 ( r){  
+    var low = 0;   
+    var high= r.length -1; //设置变量的初始值  
+    var tmp,j;  
+    while (low < high) {  
+        for (j= low; j< high; ++j) //正向冒泡,找到最大者  
+            if (r[j]> r[j+1]) {  
+                tmp = r[j]; r[j]=r[j+1];r[j+1]=tmp;  
+                console.log(arr);
+            }   
+        --high;                 //修改high值, 前移一位  
+        for ( j=high; j>low; --j) //反向冒泡,找到最小者  
+            if (r[j]<r[j-1]) {  
+                tmp = r[j]; r[j]=r[j-1];r[j-1]=tmp; 
+                console.log(arr);
+            }  
+        ++low;                  //修改low值,后移一位  
+    }   
+}   
+</script>
+</html>

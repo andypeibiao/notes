@@ -1,0 +1,14 @@
+彩云之南
+三维校园
+会商软件
+监测效能
+地震分析预报
+gis协会
+--------
+
+1894校园：前台录入地址和后台管理地址
+http://1894.boletime.com/weui/web/
+http://1894.boletime.com/app/
+
+中国大陆地震信息：
+http://p.boletime.com/app

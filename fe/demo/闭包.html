@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="utf-8">
+	<title></title>
+	<style>
+		li{
+			display: inline;
+			margin: auto 10px;
+		}
+	</style>
+</head>
+<body>
+  <ul>
+  	<li value="1"><a href="#">111</a></li>
+  	<li value="2"><a href="#">222</a></li>
+  	<li value="3"><a href="#">333</a></li>
+  	<li value="4"><a href="#">444</a></li>
+  </ul>
+	
+</body>
+<script>
+	// var liValue = document.querySelectorAll('li');
+	// for (var i = 0; i < liValue.length; i++) {
+	//   liValue[i].onclick = function(){
+	//   	console.log(i);
+	//   }
+	// }
+		  
+	function aaa(i){
+		var onclick = function(e){
+		  	console.log(i);
+		  }
+		return onclick;
+	}
+
+	var liValue = document.querySelectorAll('li');
+	for (var i = 0; i < liValue.length; i++) {
+	  liValue[i].onclick = aaa(liValue[i].value);
+	}
+</script>
+</html>
