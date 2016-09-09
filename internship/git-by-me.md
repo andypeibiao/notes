@@ -1,3 +1,33 @@
+# 常用
+
+#### Creating a feature branch
+
+When starting work on a new feature, branch off from the develop branch.
+```git
+$ git checkout -b myfeature develop
+Switched to a new branch "myfeature"
+```
+#### Incorporating a finished feature on develop
+
+Finished features may be merged into the develop branch to definitely add them to the upcoming release:
+```
+$ git checkout develop
+Switched to branch 'develop'
+$ git merge --no-ff myfeature
+Updating ea1b82a..05e9557
+(Summary of changes)
+$ git branch -d myfeature
+Deleted branch myfeature (was 05e9557).
+$ git push origin develop
+```
+
+
+
+
+
+
+
+# 其他
 git status
 git diff
 git add

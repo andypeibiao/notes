@@ -50,7 +50,7 @@
   - [ ] 搜索处理  16h
   - [ ] admin处理
     - [x] admin地点集相关管理功能页面静态页面设计
-      - [ ] 地点集列表页面 @ptspzy 2h
+      - [ ]页面 @ptspzy 2h
       - [ ] 添加、修改地点集页面 @ptspzy 2h
       - [ ] 同城地点集列表页面 @ptspzy  2h
       - [ ] 精选地点集列表页面 @shiweiying 2h
