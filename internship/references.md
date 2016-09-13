@@ -1,4 +1,13 @@
+# 2016年09月13日12:03:06
+https://github.com/visionmedia/superagent
 
+
+http://bluebirdjs.com/docs/getting-started.html
+
+
+http://caolan.github.io/async/docs.html#.doUntil
+
+<hr>
 # 业务知识
 	TOWN
 	TAdmin
