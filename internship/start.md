@@ -4,7 +4,7 @@
 var path = require('path');
 var fs = require('fs');
 var _ = require('lodash');
-
+$ DEBUG=config node server/default.js -c conf/development.yml
 # 启动tbiz
 ```bash
 cd ~/go/src/github.com/augmn/town/tbiz
