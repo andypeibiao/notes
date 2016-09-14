@@ -6,7 +6,15 @@ type RespRegionList struct {
 	Countries []model.CountryNet `json:"countries"`
 }
 ```
+var cfg = require('./config');写法
 
-keyword
+module.exports = cfg; ？
 
-定义接口的数据结构 和参数的命名相关性
+function addGroupOptions(yargs, groupName, opts) {
+    var keys = [];
+    for (var key in opts) {
+        keys.push(key);
+    }
+
+    return yargs.group(keys, groupName).options(opts);
+}
