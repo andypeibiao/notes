@@ -290,7 +290,7 @@
 
 ### 修改地点集列表
 
-`PATCH /townapi/venuebook/1018776/venue` 
+`PATCH /townapi/venuebook/1018776/venue`
 
 #### HTTP Request Body
 ```json
@@ -372,7 +372,7 @@
 	      "previous": null,
 	      "next": "1018767",
 	      "count": 103
-	    }	
+	    }
 	}
 }
 ```
@@ -420,7 +420,7 @@
 	      "previous": null,
 	      "next": "1018767",
 	      "count": 103
-	    }	
+	    }
 	}
 }
 ```
@@ -468,7 +468,7 @@
 	      },
 	      "previous": null,
 	      "next": "1018767"
-	    }	
+	    }
 	}
 }
 ```
@@ -515,7 +515,7 @@
 	      },
 	      "previous": null,
 	      "next": "1018767"
-	    }	
+	    }
 	}
 }
 ```
@@ -565,7 +565,7 @@
 	      "previous": null,
 	      "next": "1018767",
 	      "count": 111
-	    }	
+	    }
 	}
 }
 ```
@@ -612,7 +612,7 @@
 	      "previous": null,
 	      "next": "1018767",
 	      "count": 111
-	    }	
+	    }
 	}
 }
 ```
@@ -639,7 +639,7 @@
 - 创建时地点集时，`regions`为 []
 - 添加一个地点时，将region_id加入到`regions`
 - 删除一个地点时，需要读取全部的region，更新下`regions`
- 
+
 
 # admin接口
 
@@ -670,7 +670,7 @@
 	      },
 	      "previous": null,
 	      "next": "1018767"
-	    }	
+	    }
 	}
 }
 ```
@@ -766,7 +766,7 @@
 
 ### 修改地点集列表
 
-`PATCH /townapi/venuebook/1018776/venue` 
+`PATCH /townapi/venuebook/1018776/venue`
 
 #### HTTP Request Body
 ```json
@@ -906,6 +906,3 @@ CREATE TABLE `explore_venuebooks` (
 ## 待解决的问题
 
 - 地点集的地点列表，用数据库还是搜索
-
-
-
