@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/3.2.3/echarts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 600px;height:400px;"></div>
+x0:<input id="x0" value="0"/>
+y0:<input id="y0" value="0"/>
+x1:<input id="x1" value="5"/>
+y1:<input id="y1" value="2"/>
+<button id="b1">生成</button>
+<script type="text/javascript">
+    $(function () {
+
+        var tempY, m, y, k, dx, dy;
+        var dataline = new Array();
+        var Yarray = new Array();
+        var Xarray = new Array();
+        var y0, x0, y1, x1;
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: 'title',
+                x: 'center',
+                y: 0
+            },
+
+            tooltip: {
+                formatter: 'Group {a}: ({c})'
+            },
+            xAxis: [
+                {gridIndex: 0, min: 0, max: 5},
+
+            ],
+            yAxis: [
+                {gridIndex: 0, min: 0, max: 5},
+
+            ],
+            series: [
+                {
+                    name: 'I',
+                    type: 'scatter',
+                    xAxisIndex: 0,
+                    yAxisIndex: 0,
+                    data: [],
+                },
+
+            ]
+        };
+
+        function accAdd(arg1, arg2) {
+
+            var r1, r2;
+            try {
+                r1 = arg1.toString().split(".")[1].length
+            } catch (e) {
+                r1 = 0
+            }
+            try {
+                r2 = arg2.toString().split(".")[1].length
+            } catch (e) {
+                r2 = 0
+            }
+            m = Math.pow(10, Math.max(r1, r2))
+            return ((arg1 * m + arg2 * m) / m).toFixed(2);
+        }
+
+        function returnData(x0, y0, x1, y1) {
+
+            dy = y1 - y0;
+            dx = x1 - x0;
+            k = dy / dx;
+            y = parseInt(y0);
+            p = 0.5;
+            for (var sub1 = x0; sub1 < x1; sub1++) {
+                tempY = parseInt(accAdd(y, p));
+                Yarray[sub1] = tempY;//Y轴数据
+                y = accAdd(y, k);
+            }
+            for (var sub2 = x0; sub2 < x1; sub2++) {
+                Xarray[sub2] = parseInt(sub2);//X轴数据
+
+            }
+            for (var i = 0, len = Yarray.length; i < len; i++) {
+                dataline[i] = [Xarray[i], Yarray[i]];
+            }
+            return dataline;
+        }
+
+        $("#b1").click(function () {
+
+            myChart.clear();
+
+            x0 = document.getElementById("x0").value;
+            y0 = document.getElementById("y0").value;
+            x1 = document.getElementById("x1").value;
+            y1 = document.getElementById("y1").value;
+
+            //绑定数据
+            option.series[0].data = returnData(x0, y0, x1, y1);
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+        })
+
+    })
+
+</script>
+</body>
+</html>
