@@ -1,7 +1,9 @@
-当前用户是否收藏
+@all , 大家先读下规范文档（文档 https://github.com/augmn/town/blob/develop/biz/datastore/sqldb/README.md），然后各自按照规范修改并提pr，范围是biz/datastore, biz/domainmodel, biz/domainservice。大约1个小时处理完成。下面任务分配
 
-
-
+@baboon  处理 user，image相关的文件：biz/datastore下的文件包括 client_version.go, user.go, wechat_user.go, image.go，以及domainmodel和domainservice下相应的文件
+@王康     处理 user like和user been相关的文件：biz/datastore下的文件包括 user_been_venue.go, user_liked_venue.go, user_liked_venuebooks.go，以及domainmodel和domainservice下相应的文件
+@大大中小 处理venue的文件：biz/datastore下的文件包括 venue.go, venue_about.go, venue_category.go, venue_multicount.go，以及domainmodel和domainservice下相应的文件
+@张晓宇   处理venuebook, region相关的文件： biz/datastore下的文件包括 venuebook.go, venuebook_venues.go, region.go ，以及domainmodel和domainservice下相应的文件
 res.redirect
 协议
 跟踪分支

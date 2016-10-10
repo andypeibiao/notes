@@ -1,3 +1,9 @@
+# gitPRO
+实际上,所有保存在 Git 数据库中的东西都是用此哈希值来作索引的,而不是靠文件名。
+```
+git config --list
+```
+
 # [参考文章](http://www.bootcss.com/p/git-guide/)
 
 ## 创建新仓库
