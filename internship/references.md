@@ -1,27 +1,17 @@
-# 十月
+
+# 2016年10月11日10:29:37
 https://github.com/augmn/town/blob/a69724aa152f28a2c60f3a832a19910700dbde8b/biz/datastore/sqldb/README.md
 
-# 编程
+# EthanCai
 https://github.com/EthanCai/programming-learning-notes/blob/master/webdev-learning-notes.md
 
-# 2016年09月13日12:03:06
+## 2016年09月13日12:03:06
 https://github.com/visionmedia/superagent
-
 
 http://bluebirdjs.com/docs/getting-started.html
 
 
 http://caolan.github.io/async/docs.html#.doUntil
-
-<hr>
-# 业务知识
-	TOWN
-	TAdmin
-
-# 开发流程
-	代码checkout、提交流程
-	Scrum敏捷开发流程
-	上线部署流程
 
 # 开发规范
 [JavaScript编码规范](https://github.com/airbnb/javascript)
@@ -43,7 +33,7 @@ http://usejsdoc.org/
 
 [Ubuntu Linux学习大纲](https://github.com/EthanCai/linux-system-ops/blob/master/ubuntu-linux-study-guideline.md)
 
-[Pro Git](http://git-scm.com/book/zh)
+
 
 # 其他
 

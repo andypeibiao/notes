@@ -1,5 +1,3 @@
-# 常用
-
 #### Creating a feature branch
 
 When starting work on a new feature, branch off from the develop branch.
@@ -20,12 +18,6 @@ $ git branch -d myfeature
 Deleted branch myfeature (was 05e9557).
 $ git push origin develop
 ```
-
-
-
-
-
-
 
 # 其他
 git status
