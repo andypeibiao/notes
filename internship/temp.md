@@ -1,3 +1,5 @@
+Sketch
+
 @all , 大家先读下规范文档（文档 https://github.com/augmn/town/blob/develop/biz/datastore/sqldb/README.md），然后各自按照规范修改并提pr，范围是biz/datastore, biz/domainmodel, biz/domainservice。大约1个小时处理完成。下面任务分配
 
 @baboon  处理 user，image相关的文件：biz/datastore下的文件包括 client_version.go, user.go, wechat_user.go, image.go，以及domainmodel和domainservice下相应的文件

@@ -9,6 +9,11 @@
 ```
 git config --list
 ```
+```
+git log
+git shortlog
+git log --oneline
+```
 
 ## 参考：[git-guide](http://www.bootcss.com/p/git-guide/)
 
