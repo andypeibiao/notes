@@ -1,4 +1,12 @@
-Sketch
+# 2016年10月12日17:55:11
+document.getElementsByTagName("EXPRESS")[0].getAttribute("DBID")  //获取属性值
+
+var newDigi = document.getElementById("Button1").value;  
+//获取value的值  value中的值和属性不一样  不能用getAttribute("value") 来获取
+
+地点集H5功能完善（完整类型图标替换，地图页增加筛选框）：
+
+# Sketch
 
 @all , 大家先读下规范文档（文档 https://github.com/augmn/town/blob/develop/biz/datastore/sqldb/README.md），然后各自按照规范修改并提pr，范围是biz/datastore, biz/domainmodel, biz/domainservice。大约1个小时处理完成。下面任务分配
 
