@@ -55,3 +55,11 @@ fatal: The current branch feature/rising_people has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin feature/rising_people
+
+
+## ubuntu git update
+```
+$ sudo add-apt-repository ppa:git-core/ppa
+$ sudo apt-get update
+$ sudo apt-get install git
+```
