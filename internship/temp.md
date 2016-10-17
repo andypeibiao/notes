@@ -1,3 +1,31 @@
+
+# 2016年10月15日18:16:04
+
+```
+/**
+ * [updateCurrentPageShow 控制当前页码的显示]
+ */
+function updateCurrentPageShow() {
+
+    var currentNumHtml = document.getElementById('curent-index');
+    var iconLeftHtml = document.getElementById('icon-page-left');
+    var iconRightHtml = document.getElementById('icon-page-right');
+
+    //图片数量
+    var imgCount = venueImgCount();
+
+    //控制左右箭头的显示
+    if (iconLeftHtml && iconRightHtml) {
+        iconLeftHtml.classList.toggle('left-hide', !active);
+        iconRightHtml.classList.toggle('right-hide', active === imgCount - 1);
+    }
+
+    //控制当前页码显示
+    if (currentNumHtml) {
+        currentNumHtml.innerText = active + 1;
+    }
+}
+```
 # 2016年10月12日17:55:11
 document.getElementsByTagName("EXPRESS")[0].getAttribute("DBID")  //获取属性值
 
