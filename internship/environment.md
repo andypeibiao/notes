@@ -1,13 +1,13 @@
 
-##安装把所有packages更新到最新
+## 安装把所有packages更新到最新
 
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoclean
 
-##安装vim
+## 安装vim
 
 sudo apt-get install vim
 
-##把zsh设置为默认shell并且安装Oh-my-zsh
+## 把zsh设置为默认shell并且安装Oh-my-zsh
 
 sudo apt-get install zsh
 
@@ -21,19 +21,17 @@ sudo shutdown -r 0
 
 常用开发工具
 
-##版本管理工具Git
+## 版本管理工具Git
 
 sudo apt-get install git
 
 
-node.js开发环境
-
-
-##安装NVM
+# node.js开发环境
+## 安装NVM
 
 安装nvm
 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.6/install.sh | bash
+https://github.com/creationix/nvm
 
 通过NVM安装Node v4.5.0和v6.4.0
 
@@ -45,9 +43,11 @@ nvm alias default v4.5.0
 
 重启Shell，然后运行"node -v"测试安装是否成功
 
-Go语言开发环境
 
-##安装Golang
+
+# Go语言开发环境
+
+## 安装Golang
 
 cd ~/Downloads && curl -O http://golangtc.com/static/go/1.7/go1.7.linux-amd64.tar.gz
 
