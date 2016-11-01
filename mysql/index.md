@@ -20,3 +20,123 @@ g. 书写高效率的SQL。比如 SELECT * FROM TABEL 改为 SELECT field_1, fie
 #[理解MySQL——索引与优化](http://www.cnblogs.com/hustcat/archive/2009/10/28/1591648.html)
 # [mysql int(3)与int(11)的区别](http://blog.sina.com.cn/s/blog_610997850100wjrm.html)
 char 与varchar区别？
+
+# 数据库优化
+## [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+
+# [MYSQL的索引类型：PRIMARY, INDEX,UNIQUE,FULLTEXT,SPAIAL 有什么区别？各适用于什么场合？](https://zhidao.baidu.com/question/236161917.html)
+PRIMARY, INDEX, UNIQUE 这3种是一类
+PRIMARY 主键。 就是 唯一 且 不能为空。
+INDEX 索引，普通的
+UNIQUE 唯一索引。 不允许有重复。
+FULLTEXT 是全文索引，用于在一篇文章中，检索文本信息的。
+
+举个例子来说，比如你在为某商场做一个会员卡的系统。
+这个系统有一个会员表
+有下列字段：
+会员编号   INT
+会员姓名   VARCHAR(10)
+会员身份证号码   VARCHAR(18)
+会员电话   VARCHAR(10)
+会员住址   VARCHAR(50)
+会员备注信息  TEXT
+
+那么这个 会员编号，作为主键，使用 PRIMARY
+会员姓名 如果要建索引的话，那么就是普通的 INDEX
+会员身份证号码   如果要建索引的话，那么可以选择 UNIQUE （唯一的，不允许重复）
+会员备注信息 ， 如果需要建索引的话，可以选择 FULLTEXT，全文搜索。
+
+不过 FULLTEXT 用于搜索很长一篇文章的时候，效果最好。
+用在比较短的文本，如果就一两行字的，普通的 INDEX 也可以。
+## imooc笔记 [视频地址]（http://www.imooc.com/video/3688）
+SQL及索引（重要）->数据库表结构（范式）->系统配置->硬件
+### sql优化技巧
+慢查询日志，慢查询分析工具mysqldumpslow, MySQL慢查日志分析工具之pt-query-digest
+#### MAX COUNT 
+```
+mysql>  explain select Max(created_at) from tang_poetry.poetries \G
+*************************** 1. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: poetries
+         type: ALL
+possible_keys: NULL
+          key: NULL
+      key_len: NULL
+          ref: NULL
+         rows: 45490
+        Extra: NULL
+1 row in set (0.00 sec)
+```
+这里就是一个表扫描操作，一共扫描了45490行数据。如果数据表很大，这里的IO效率就会很差
+优化方法：max(field)可以通过为field建立索引 来优化
+```
+create index idx_create_at on tang_poetry.poetries(created_at);
+```
+优化后：
+```
+mysql> explain select Max(created_at) from tang_poetry.poetries \G
+*************************** 1. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: NULL
+         type: NULL
+possible_keys: NULL
+          key: NULL
+      key_len: NULL
+          ref: NULL
+         rows: NULL
+        Extra: Select tables optimized away
+1 row in set (0.00 sec)
+```
+优化之后并不需要查询表中的数据，而是通过索引就可以知道执行的结果了。
+因为索引是顺序排列的，只需要查最后一个数据。这样就尽可能减少了IO操作。
+而且这时候，不管表数据量有多大，查询max所需要的时间是基本固定的
+
+1.对max()查询，可以为表创建索引，create index index_name on table_name(column_name 规定需要索引的列),然后在进行查询
+2.count()对多个关键字进行查询，比如在一条SQL中同时查出2006年和2007年电影的数量，语句：
+select count(release_year='2006' or null) as '2006年电影数量',
+count(release_year='2007' or null) as '2007年电影数量'
+from film;
+
+#### 子查询
+对于子查询的优化，可以优化成为join方式查询，但是这样子查询的话如果是一对多的关系，那么就要注意去重，可以用distinct关键字去重
+#### group by
+group by可能会出现临时表（Using temporary），文件排序（Using filesort）等，影响效率。
+可以通过关联的子查询，来避免产生临时表和文件排序，可以节省io
+改写前
+select actor.first_name,actor.last_name,count(*)
+from sakila.film_actor
+inner join sakila.actor using(actor_id)
+group by film_actor.actor_id;
+改写后
+select actor.first_name,actor.last_name,c.cnt
+from sakila.actor inner join(
+select actor_id,count(*) as cnt from sakila.film_actor group by
+actor_id
+)as c using(actor_id);
+#### limit
+limit常用于分页处理，时常会伴随order by从句使用，因此大多时候会使用Filesorts这样会造成大量的io问题
+1.使用有索引的列或主键进行order by操作
+2.记录上次返回的主键，在下次查询时使用主键过滤
+使用这种方式有一个限制，就是主键一定要顺序排序和连续的，如果主键出现空缺可能会导致最终页面上显示的列表不足5条，解决办法是附加一列，保证这一列是自增的并增加索引就可以了
+
+### 索引
+选择合适的索引列<br>
+1.在where，group by，order by，on从句中出现的列<br>
+2.索引字段越小越好(因为数据库的存储单位是页，一页中能存下的数据越多越好 )<br>
+3.离散度大得列放在联合索引前面<br>
+select count(distinct customer_id), count(distinct staff_id) from payment;<br>
+查看离散度 通过统计不同的列值来实现 count越大 离散程度越高
+
+离散度，我的理解就是唯一性了，比如主键，绝对是离散度最大的，而一些用来标识状态标识的列，基本只有几个可选项，离散度就很小
+
+
+过多的索引不但影响写入，而且影响查询，索引越多，分析越慢
+如何找到重复和多余的索引，主键已经是索引了，所以primay key 的主键不用再设置unique唯一索引了
+冗余索引，是指多个索引的前缀列相同，innodb会在每个索引后面自动加上主键信息
+
+冗余索引查询工具
+pt-duplicate-key-checker
+
+通过慢查询日志配合pt-index-usage来删除不用索引：pt-index-usage -uroot -p '' mysql-slow.log
