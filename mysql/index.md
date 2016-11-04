@@ -24,7 +24,7 @@ char 与varchar区别？
 # 数据库优化
 ## [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
 
-# [MYSQL的索引类型：PRIMARY, INDEX,UNIQUE,FULLTEXT,SPAIAL 有什么区别？各适用于什么场合？](https://zhidao.baidu.com/question/236161917.html)
+## [MYSQL的索引类型：PRIMARY, INDEX,UNIQUE,FULLTEXT,SPAIAL 有什么区别？各适用于什么场合？](https://zhidao.baidu.com/question/236161917.html)
 PRIMARY, INDEX, UNIQUE 这3种是一类
 PRIMARY 主键。 就是 唯一 且 不能为空。
 INDEX 索引，普通的
@@ -140,3 +140,31 @@ select count(distinct customer_id), count(distinct staff_id) from payment;<br>
 pt-duplicate-key-checker
 
 通过慢查询日志配合pt-index-usage来删除不用索引：pt-index-usage -uroot -p '' mysql-slow.log
+### 数据库结构优化
+#### 选择合适的数据类型
+1.使用可存下数据的最小的数据类型
+2.使用简单地数据类型，Int要比varchar类型在mysql处理上更简单
+3.尽可能使用not null定义字段，这是由innodb的特性决定的，因为非not null的数据可能需要一些额外的字段进行存储，这样就会增加一些IO。可以对非null的字段设置一个默认值
+4.尽量少用text，非用不可最好分表，将text字段存放到另一张表中，在需要的时候再使用联合查询，这样可提高查询主表的效率
+例子1、用Int存储日期时间
+from_unixtime()可将Int类型的时间戳转换为时间格式
+select from_unixtime(1392178320); 输出为 2014-02-12 12:12:00
+unix_timestamp()可将时间格式转换为Int类型
+select unix_timestamp('2014-02-12 12:12:00'); 输出为1392178320
+例子2
+存储IP地址——bigInt
+利用inet_aton(),inet_ntoa()转换
+select inet_aton('192.169.1.1'); 输出为3232301313
+select inet_ntoa(3232301313); 输出为192.169.1.1
+#### 表的范式化、反范式化
+表的范式化即数据库设计的规范化：数据表不存在非关键字段对任意关键字段的传递函数依赖，则符合第三范式。
+可以将一张数据表进行拆分，来满足第三范式的要求。
+设计表的时候符合范式化是为了：减少数据冗余、减少表的插入、更新、删除异常
+设计表的时候使用反范式化是为了：以空间换时间、增强代码的可编程性和可维护性
+不符合第三范式要求的表存在以下问题：
+1.数据冗余:（分类、分类描述）对于每一个商品都会进行记录
+2.数据插入异常
+3.数据更新异常
+4.数据删除异常
+
+反范式化：就是做的事情和范式化是反着来的，目的也很简单，以空间换时间、简化编程的复杂度，实际的效果就是编写的SQL语句更加的简单了，并且对应的SQL语句的执行效率也更加的高了！
