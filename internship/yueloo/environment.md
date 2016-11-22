@@ -35,6 +35,16 @@ nvm alias default v6.9.1
 ```
 重启Shell，然后运行"node -v"测试安装是否成功
 
+## gitbook
+
+```
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+gitbook install
+
+gitbook serve
+```
+
 # PHP环境
 
 PHP7环境：[http://www.bestmagento.com/magento2/ubuntu-nginx-php7-best-magento2-hosting/](http://www.bestmagento.com/magento2/ubuntu-nginx-php7-best-magento2-hosting/)
@@ -47,4 +57,4 @@ PhpStorm注册:[http://blog.csdn.net/xx1710/article/details/51725012](http://blo
 
 # VirtualBox下XP安装
 
-增强工具的安装
+增强工具的安装(VirtualBox下Device菜单中可选择安装)
