@@ -9,3 +9,7 @@ cnpm install -g http-server
 cnpm install -g node-uuid
 cnpm install -g hexo-cli
 ```
+
+```
+npm config set registry=http://registry.npm.taobao.org 
+```
