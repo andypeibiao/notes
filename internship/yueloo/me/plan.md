@@ -4,5 +4,5 @@
 
 ## 2016年11月23日10:18:14
 - webpack
-- Ubuntu
+- Ubuntu(linux命令)
 - MDN
