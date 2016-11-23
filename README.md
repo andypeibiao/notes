@@ -6,6 +6,9 @@
 - 全栈工程师培训材料：[https://github.com/ruanyf/jstraining](https://github.com/ruanyf/jstraining)
 - [https://github.com/EthanCai/programming-learning-notes](https://github.com/EthanCai/programming-learning-notes)
 - [https://github.com/EthanCai/linux-system-ops](https://github.com/EthanCai/linux-system-ops)
+- [https://github.com/qiu-deqing/FE-interview](https://github.com/qiu-deqing/FE-interview)
+- [https://github.com/jimuyouyou/node-interview-questions](https://github.com/jimuyouyou/node-interview-questions)
+- [https://github.com/hawx1993/Front-end-Interview-questions](https://github.com/hawx1993/Front-end-Interview-questions)
 
 > There is nothing noble in being superior to your fellow man; True nobility is being superior to your former self. 
 > –Ernest Hemingway
