@@ -10,3 +10,7 @@ Ubuntu安装，virtualbox下XP安装；nodejs，php等环境搭建；编写环�
 ## 2016年11月23日18:07:50
 
 webpack getting started ; symfony getting started ; linux add 3 instruction ;
+
+## 2016年11月24日19:00:00
+
+熟悉支付页面功能需求；下午桌椅安装
