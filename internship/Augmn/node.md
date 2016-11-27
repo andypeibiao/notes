@@ -10,7 +10,6 @@ cnpm install -g node-uuid
 cnpm install -g hexo-cli
 ```
 
-<<<<<<< HEAD:internship/node.md
 Node 的模块管理器 npm 会一起安装好。由于 Node 的官方模块仓库网速太慢，模块仓库需要切换到阿里的源。
 
 ```
@@ -22,8 +21,6 @@ $ npm config set registry https://registry.npm.taobao.org/
 
 ```
 $ npm config get registry
-=======
 ```
 npm config set registry=http://registry.npm.taobao.org 
->>>>>>> 4923733f5b4ecf28b55d5735ff43d41a76c7923e:internship/Augmn/node.md
 ```
