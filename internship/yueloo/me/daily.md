@@ -14,3 +14,9 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 ## 2016年11月24日19:00:00
 
 熟悉支付页面功能需求；下午桌椅安装
+
+## 周一周二考试请假
+
+## 2016年11月30日18:41:27
+
+熟悉数据库;并对任务整体技术比较熟悉；实现echart几个demo;实现php_mvc;

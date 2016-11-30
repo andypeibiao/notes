@@ -13,3 +13,13 @@ golang 下载：[http://golangtc.com/download](http://golangtc.com/download)
 [http://symfony.com/doc/3.1/page_creation.html](http://symfony.com/doc/3.1/page_creation.html)
 
 
+## 问题
+ - 需要展示哪几本小说的订阅信息（这几本小说可自行指定？）
+ - 
+
+
+- 获取某几本小说的订阅总量 
+- 获取某本小说订阅总量
+- 获取某小说某章节订阅数
+- 获取某小说章节的订阅信息
+
