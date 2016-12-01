@@ -20,3 +20,7 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 ## 2016年11月30日18:41:27
 
 熟悉数据库;并对任务整体技术比较熟悉；实现echart几个demo;实现php_mvc;
+
+## 2016年12月01日19:29:58
+
+基于spl-autoload-register修改MVC写法；基本实现小说展示逻辑；交互，数据处理还需要解决；

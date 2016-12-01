@@ -18,8 +18,7 @@ golang 下载：[http://golangtc.com/download](http://golangtc.com/download)
  - 
 
 
-- 获取某几本小说的订阅总量 
-- 获取某本小说订阅总量
-- 获取某小说某章节订阅数
-- 获取某小说章节的订阅信息
+小说：查看每天的订阅总数
+
+章节：每小时的订阅数
 
