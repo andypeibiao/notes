@@ -14,8 +14,9 @@ golang 下载：[http://golangtc.com/download](http://golangtc.com/download)
 
 
 ## 问题
- - 需要展示哪几本小说的订阅信息（这几本小说可自行指定？）
- - 
+
+数据存储问题
+
 
 
 小说：查看每天的订阅总数

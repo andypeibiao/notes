@@ -24,3 +24,7 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 ## 2016年12月01日19:29:58
 
 基于spl-autoload-register修改MVC写法；基本实现小说展示逻辑；交互，数据处理还需要解决；
+
+##2016年12月02日18:27:36
+
+完成chapter主要后端处理；使用逻辑处理数据为空情况；
