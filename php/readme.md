@@ -17,3 +17,7 @@ mv composer.phar /usr/local/bin/composer
 
 composer -V
 ```
+修改Packagist 镜像
+```
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
+```
