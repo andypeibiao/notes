@@ -32,3 +32,7 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 ## 2016年12月05日18:59:11
 
 学习syfonny框架；解决上周遗留的bug
+
+## 2016年12月06日19:00:00
+
+完成整合到symfony
