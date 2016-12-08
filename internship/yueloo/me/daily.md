@@ -36,3 +36,9 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 ## 2016年12月06日19:00:00
 
 完成整合到symfony
+
+## 2016年12月07日19:00:00
+[https://github.com/ptspzy/daily_plan/issues/1](https://github.com/ptspzy/daily_plan/issues/1)
+
+## 2016年12月08日19:06:49
+安装Java,ES(失败)；PHP文件管理操作；curl简单操作
