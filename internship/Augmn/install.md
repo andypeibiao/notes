@@ -55,6 +55,13 @@ cd ~/go/src/github.com/augmn/town && glide install -u -s --delete
 
 # Java
 
+
+```
+add-apt-repository ppa:webupd8team/java
+apt-get update
+apt-get install oracle-java8-installer
+```
+
 ```
 切换到所需的安装目录。键入：
 cd directory_path_name
