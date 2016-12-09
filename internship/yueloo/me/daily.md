@@ -42,3 +42,6 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 
 ## 2016年12月08日19:06:49
 安装Java,ES(失败)；PHP文件管理操作；curl简单操作
+
+## 2016年12月09日18:40:12
+完成导出图片功能；但存在性能问题
