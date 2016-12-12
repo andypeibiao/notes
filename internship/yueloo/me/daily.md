@@ -1,0 +1,47 @@
+# yueloo 实习
+## 2016年11月21日18:07:45
+
+Ubuntu安装，virtualbox下XP安装；nodejs，php等环境搭建；编写环境搭建文档
+
+## 2016年11月22日19:00:00
+
+整理本地开发环境（安装几个常用的工具）；看代码；了解webpack;Lantern安装（不必源码安装，源码安装需要GO环境）；chrome翻译插件（搜中文版的）；
+
+## 2016年11月23日18:07:50
+
+webpack getting started ; symfony getting started ; linux add 3 instruction ;
+
+## 2016年11月24日19:00:00
+
+熟悉支付页面功能需求；下午桌椅安装
+
+## 周一周二考试请假
+
+## 2016年11月30日18:41:27
+
+熟悉数据库;并对任务整体技术比较熟悉；实现echart几个demo;实现php_mvc;
+
+## 2016年12月01日19:29:58
+
+基于spl-autoload-register修改MVC写法；基本实现小说展示逻辑；交互，数据处理还需要解决；
+
+##2016年12月02日18:27:36
+
+完成chapter主要后端处理；使用逻辑处理数据为空情况；
+
+## 2016年12月05日18:59:11
+
+学习syfonny框架；解决上周遗留的bug
+
+## 2016年12月06日19:00:00
+
+完成整合到symfony
+
+## 2016年12月07日19:00:00
+[https://github.com/ptspzy/daily_plan/issues/1](https://github.com/ptspzy/daily_plan/issues/1)
+
+## 2016年12月08日19:06:49
+安装Java,ES(失败)；PHP文件管理操作；curl简单操作
+
+## 2016年12月09日18:40:12
+完成导出图片功能；但存在性能问题
