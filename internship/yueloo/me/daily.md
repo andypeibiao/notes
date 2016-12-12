@@ -45,3 +45,6 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 
 ## 2016年12月09日18:40:12
 完成导出图片功能；但存在性能问题
+
+## 2016年12月12日18:36:37
+重新导出图片；正则；book；
