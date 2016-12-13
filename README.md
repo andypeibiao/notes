@@ -11,5 +11,19 @@
 - [https://github.com/hawx1993/Front-end-Interview-questions](https://github.com/hawx1993/Front-end-Interview-questions)
 - [https://segmentfault.com/u/trigkit4](https://segmentfault.com/u/trigkit4)
 
+
+
+RESTful API 设计指南:[http://www.ruanyifeng.com/blog/2014/05/restful_api.html](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+
+
+
+
+
+
+
+
+
+
+
 > There is nothing noble in being superior to your fellow man; True nobility is being superior to your former self. 
 > –Ernest Hemingway
