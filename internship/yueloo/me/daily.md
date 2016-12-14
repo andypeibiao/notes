@@ -52,3 +52,6 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 ## 2016年12月13日19:08:42
 
 选择排序；导出图片完成；着手前端项目；
+
+## 2016年12月14日18:32:44
+tadmin,tbiz环境搭建（出现问题）；冒泡；
