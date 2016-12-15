@@ -124,6 +124,18 @@ in terminate input sudo chown -R $(whoami) /usr/local/bin
 
 # tadmin
 
+新建数据库tadmin
+
+创建users collection
+
+```
+{
+    "username" : "ethan",
+    "password" : "8be28f412e5f13306867ecbb0ab54b5d",
+    "mobile" : "18823342423",
+    "role" : "administrator"
+}
+```
 
 ## 启动tbiz
 ```bash
