@@ -55,3 +55,10 @@ webpack getting started ; symfony getting started ; linux add 3 instruction ;
 
 ## 2016年12月14日18:32:44
 tadmin,tbiz环境搭建（出现问题）；冒泡；
+
+## 2016年12月15日18:23:33
+优化算法；admin可运行；小说
+
+## 2016年12月16日18:26:13
+
+vuejs;开始新任务；各种博客；
