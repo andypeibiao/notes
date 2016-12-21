@@ -70,3 +70,7 @@ promise，q模块；基于vue的admin模板；JS电子书；nodejs爬虫
 ## 2016年12月20日19:10:33
 
 cors;12306抓取信息;admin熟悉；任务分析准备；
+
+## 2016年12月21日11:27:01
+
+webpack;Map;prototype;Array.prototype.map()
