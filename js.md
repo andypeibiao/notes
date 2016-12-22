@@ -24,10 +24,10 @@ var a = map.call("Hello World", function(x) {
 })
 // a的值为[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]
 
-
+    
 var map = Array.prototype.map;
 var aa = map.call([1,2,3],function(a){
-    return a*a;
+    return a*a; 
 });
 
 aa;
