@@ -38,7 +38,7 @@ echo 'export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"' >> .zshrc
 
 安装redis
 
-brew install redis
+brew installjs redis
 
 
 mkdir -p ~/go/src/golang.org/x && cd ~/go/src/golang.org/x
