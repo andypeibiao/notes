@@ -113,3 +113,7 @@ CSS布局；webpack热更新
 ## 2017年01月06日18:14:38
 
 vue tab切换；整理部分fe资料（构建工具等和前端发展方向）；JavaScript基础；
+
+## 2017年01月09日13:14:23
+
+JavaScript高级教程(1-3)3未完待续；Update helpercenter页面；
