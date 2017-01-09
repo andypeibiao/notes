@@ -38,7 +38,7 @@ echo 'export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"' >> .zshrc
 
 安装redis
 
-brew install redis
+brew installjs redis
 
 
 mkdir -p ~/go/src/golang.org/x && cd ~/go/src/golang.org/x
@@ -99,7 +99,68 @@ export CLASSPATH
  The init script is placed at /etc/init.d/elasticsearch as you would expect it. The configuration file is placed at /etc/default/elasticsearch.
 
  /usr/lib/systemd/system/elasticsearch.service
-# 启动问题
 
+# 安装mongoDB并启动服务 导入数据
+
+[https://docs.mongodb.com/master/tutorial/install-mongodb-on-ubuntu/?_ga=1.38794278.44527388.1481683627](https://docs.mongodb.com/master/tutorial/install-mongodb-on-ubuntu/?_ga=1.38794278.44527388.1481683627)
+
+sudo service mongod start
+
+客户端：Robomongo
+
+
+# docker
+安装Docker Engine[https://docs.docker.com/engine/installation/linux/ubuntulinux/](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+
+安装Docker Machine[https://docs.docker.com/machine/install-machine/](https://docs.docker.com/machine/install-machine/)
+```
+zsh: permission denied: /usr/local/bin/docker-machine
+```
+FIX:[https://github.com/docker/machine/issues/652](https://github.com/docker/machine/issues/652)
+```
+# 不推荐这么做
+in terminate input sudo chown -R $(whoami) /usr/local/bin   
+```
+
+# tadmin
+
+新建数据库tadmin
+
+创建users collection
+
+```
+{
+    "username" : "ethan",
+    "password" : "8be28f412e5f13306867ecbb0ab54b5d",
+    "mobile" : "18823342423",
+    "role" : "administrator"
+}
+```
+
+## 启动tbiz
+```bash
+cd ~/go/src/github.com/augmn/town/tbiz
+./start-biz.sh
+```
+
+## 启动TAdmin
+假设`tbiz`已经启动，且当前目录是项目目录启动步骤如下：
+
+```bash
+# 1. 在Conf/development.yml中确认tapi服务地址无误
+
+# 2. 启动MongoDB服务
+$ sudo mongod
+
+# 3. 让webpack运行在watch模式下，即时build修改的静态资源
+$ webpack -w --progress
+
+# 4. 启动tadmin, 支持两种方式：通过配置文件传入启动参数；通过命令行传入启动参数。
+
+# 4.1. 通过配置文件传入启动参数
+$ DEBUG=config node server/default.js -c conf/development.yml
+
+# 5. 使用Chrome访问本地启动的tadmin
+```
 
 
