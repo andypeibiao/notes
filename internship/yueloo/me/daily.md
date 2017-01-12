@@ -125,3 +125,7 @@ JavaScript高级教程C3；node,react demo;原型链(未完)；浏览资料
 ## 2017年01月11日18:41:12
 
 JavaScript高级教程C4；创建git组织；vue生命周期；继承和原型链整理；
+
+## 2017年01月12日19:34:08
+
+JavaScript高级教程C5；整理好github组织；
