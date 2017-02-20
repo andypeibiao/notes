@@ -1,8 +1,0 @@
-CREATE TABLE products (
-   id INT NOT NULL AUTO_INCREMENT,
-   sku VARCHAR(8) NOT NULL,
-   name VARCHAR(100) NOT NULL,
-   price DECIMAL(5,2) NOT NULL,
-   PRIMARY KEY(id)
-)
-
