@@ -200,3 +200,7 @@ promise；ebook；题目；
 
 timediff;hash;博文
 
+## 2017年02月23日21:18:24
+
+nodejs request promise;
+
