@@ -204,3 +204,6 @@ timediff;hash;博文
 
 nodejs request promise;
 
+## 2017年02月24日20:52:47
+
+promise整理；electron；
