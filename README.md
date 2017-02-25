@@ -18,12 +18,33 @@ RESTful API 设计指南:[http://www.ruanyifeng.com/blog/2014/05/restful_api.htm
 
 http://ethancai.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/
 
+# TOOLS
+
+- [devdocs](http://devdocs.io/)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [httpbin](http://httpbin.org/)
+
+# NOT BAD BOLG
+
+- http://itlove.wang/
 
 
+# BOOKS
 
+- 《JavaScript dom 编程艺术》
+- 《JavaScript权威指南》
+- 《javascript高级程序设计》
+- 《高性能 JavaScript》
+- 《JavaScript语言精粹》
+- 《JavaScript DOM高级程序设计》
+- 《JavaScript设计模式》
+- 《高性能网站建设指南》
+- 《高性能网站建设进阶指南》
 
+- 《数据结构和算法的JavaScript描述》
 
+- 《图解HTTP》
+- 《HTTP权威指南》
 
-
-> There is nothing noble in being superior to your fellow man; True nobility is being superior to your former self. 
-> –Ernest Hemingway
+- 《Unix编程艺术》
+- 《代码大全》
