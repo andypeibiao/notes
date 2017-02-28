@@ -1,6 +1,6 @@
-### js call apply?
+### js中的继承 call apply bind?
 Function.prototype.apply()
-### cmd amd
+### 理解cmd amd
 
 ### 事件委托
 [http://www.cnblogs.com/super-d2/archive/2011/10/31/2230602.html](http://www.cnblogs.com/super-d2/archive/2011/10/31/2230602.html)
@@ -15,5 +15,4 @@ Function.prototype.apply()
 中文：[https://github.com/skyline75489/what-happens-when-zh_CN](https://github.com/skyline75489/what-happens-when-zh_CN)
 
 ### 跨域
-
 http://web.jobbole.com/88519/
