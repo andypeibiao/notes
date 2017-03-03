@@ -42,3 +42,8 @@ http://httpbin.org/
 
 - https://github.com/wangwenjie1314/webQd
 
+# FE
+## ES6
+- es6浏览器支持情况 http://kangax.github.io/compat-table/es6/
+- Babel（ES6转码器，将ES6代码转为ES5代码）https://babeljs.io/ 
+

@@ -13,3 +13,15 @@ BOM 、 Ajax 、 JavaScript 等,在掌握这些技术的同时,还要清楚地�
 为什么它们会对自己的网站进行重构呢?
 
 原型链
+
+
+
+```
+ways = Array.prototype.slice.call(ways);
+        ways.forEach(function (way) {
+            if(way.checked){
+                console.log(way)
+                return ;
+            }
+        });
+```

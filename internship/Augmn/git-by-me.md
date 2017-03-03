@@ -1,3 +1,6 @@
+##
+git config credential.helper 'cache --timeout=3600'
+
 #### Creating a feature branch
 
 When starting work on a new feature, branch off from the develop branch.
