@@ -25,3 +25,12 @@ ways = Array.prototype.slice.call(ways);
             }
         });
 ```
+
+##　阅路
+https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage 
+
+http://www.w3school.com.cn/tags/att_iframe_srcdoc.asp
+## 2017年03月09日
+- 首页渲染 
+- lazy load
+- 读取json
