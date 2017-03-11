@@ -34,3 +34,11 @@ http://www.w3school.com.cn/tags/att_iframe_srcdoc.asp
 - 首页渲染 
 - lazy load
 - 读取json
+
+
+##2017年03月11日15:45:41
+
+https://docs.mongodb.com/manual/administration/install-enterprise-linux/
+https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/
+
+
