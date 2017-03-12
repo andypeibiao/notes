@@ -30,3 +30,20 @@ https://mos.meituan.com/library/44/MongoDB-installation-and-use/
 http://blog.csdn.net/chinagissoft/article/details/51303129
 
 http://httpbin.org/
+
+
+# 资源
+
+- 书籍资源 http://www.36zhen.com/t?id=3448
+- https://zhuanlan.zhihu.com/p/25334672
+- Android等：https://github.com/china-kook/Skill-learn-collect
+
+# interview
+
+- https://github.com/wangwenjie1314/webQd
+
+# FE
+## ES6
+- es6浏览器支持情况 http://kangax.github.io/compat-table/es6/
+- Babel（ES6转码器，将ES6代码转为ES5代码）https://babeljs.io/ 
+
