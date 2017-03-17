@@ -36,7 +36,12 @@
 # BOOKS
 - 《JavaScript dom 编程艺术》
 - 《JavaScript权威指南》
-- 《javascript高级程序设计》
+- [JavaScript高级程序设计（第3版）](http://www.ituring.com.cn/book/946)
+- [你不知道的javascript，你不知道的奥秘](http://www.ituring.com.cn/article/215992)
+- [你不知道的JavaScript（上卷）](http://www.ituring.com.cn/book/1488)
+- [你不知道的JavaScript（中卷）](http://www.ituring.com.cn/book/1563)
+- [你不知道的JavaScript（下卷）](http://www.ituring.com.cn/book/1666)
+- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 - 《高性能 JavaScript》
 - 《JavaScript语言精粹》
 - 《JavaScript DOM高级程序设计》
@@ -48,3 +53,4 @@
 - 《HTTP权威指南》    
 - 《Unix编程艺术》
 - 《代码大全》
+- [JavaScript编程全解](http://www.ituring.com.cn/book/1140)
