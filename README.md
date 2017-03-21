@@ -1,7 +1,7 @@
 # Content
-- [Tool](#TOOLS)
-- [Nodejs](#Nodejs)
-- [Interview](#Interview)
+- [Tool](#tools)
+- [Nodejs](#nodejs)
+- [Interview](#interview)
 
 
 
