@@ -3,6 +3,7 @@
 Reference:
 - https://devcenter.heroku.com/categories/nodejs
 - https://devcenter.heroku.com/articles/custom-domains#add-a-custom-domain-with-a-subdomain
+
 罗列刚用到的基础命令：
 ```
 heroku login
@@ -25,5 +26,7 @@ Adding heroku.ptspzy.com to ⬢ frozen-caverns-83527... !
  ▸    now at https://heroku.com/verify
 
 ```
+
 遇到的问题：http://stackoverflow.com/questions/14322989/first-heroku-deploy-failed-error-code-h10
+
 附上地址：https://frozen-caverns-83527.herokuapp.com/

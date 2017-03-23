@@ -15,7 +15,7 @@
 - 合理的日志处理
 - 正确的处理异常
 
-### 1.Use gzip compression
+### 1. Use gzip compression
 
 使用gzip压缩可以大大减小响应主体的大小，从而提升了客户端的响应速度，使用[compression](https://www.npmjs.com/package/compression)中间件来处理gzip的压缩。例如：
 ```
@@ -31,7 +31,7 @@ var compression = require('compression');
 var express = require('express');
 var app = express();
 app.use(compression());
-### 2.Don’t use synchronous functions
+### 2. Don’t use synchronous functions
 
 返回结果之前同步函数和方法会一直占用执行进程。对于同步函数的一个简单调用可能在几微秒或毫秒返回结果，然而在高并发的网站，这些调用增加了会降低网站的性能。所以要在生产环境尽量使用避免同步函数
 
@@ -39,7 +39,7 @@ app.use(compression());
 
 如果使用Node.js 4.0+ 或者 io.js 2.1.0+,可以使用参数 --trace-sync-io 去打印针对同步函数的警告和堆栈跟踪信息。[node command-line options documentation](https://nodejs.org/api/cli.html#cli_trace_sync_io)
 
-### 3.Do logging correctly
+### 3. Do logging correctly
 
 一般，有两个原因要做日志处理，调试和跟踪应用运行记录。开发调试时使用```console.log()```和```console.error()```在终端打印信息。但是当目的地是终端或文件时这些函数是同步的，所以不适合在生产环境使用，除非你把日志输出到另一个程序中。
 
@@ -48,24 +48,24 @@ app.use(compression());
 
 #### For debugging
 
-If you’re logging for purposes of debugging, then instead of using console.log(), use a special debugging module like [debug](https://www.npmjs.com/package/debug). This module enables you to use the DEBUG environment variable to control what debug messages are sent to console.err(), if any. To keep your app purely asynchronous, you’d still want to pipe console.err() to another program. But then, you’re not really going to debug in production, are you?
+调试时除了console.log(), 还可以用[debug](https://www.npmjs.com/package/debug). This module enables you to use the DEBUG environment variable to control what debug messages are sent to console.err(), if any. To keep your app purely asynchronous, you’d still want to pipe console.err() to another program. But then, you’re not really going to debug in production, are you?
 
 #### For app activity
 
 If you’re logging app activity (for example, tracking traffic or API calls), instead of using console.log(), use a logging library like [Winston](https://www.npmjs.com/package/winston)  or [Bunyan](https://www.npmjs.com/package/bunyan). For a detailed comparison of these two libraries, see the StrongLoop blog post [Comparing Winston and Bunyan Node.js Logging](https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/?_ga=1.240102275.1822435717.1490015455).
 
-### Handle exceptions properly
+### 4.Handle exceptions properly
 
-Node apps crash when they encounter an uncaught exception. Not handling exceptions and taking appropriate actions will make your Express app crash and go offline. If you follow the advice in [Ensure your app automatically restarts](#ensure-restart) below, then your app will recover from a crash. Fortunately, Express apps typically have a short startup time. Nevertheless, you want to avoid crashing in the first place, and to do that, you need to handle exceptions properly.
+Nodejs应用遇到未捕获的异常会崩掉。参考 [Ensure your app automatically restarts](#ensure-restart) ,应用能够在崩掉后重启. 幸运的是Express应用启动非常快. 然而，你要想避免应用崩掉，还是要做恰当的异常处理。
 
-To ensure you handle all exceptions, use the following techniques:
+为确保处理所有的异常，使用以下方法：
 
 * [Use try-catch](#use-try-catch)
 * [Use promises](#use-promises)
 
 Before diving into these topics, you should have a basic understanding of Node/Express error handling: using error-first callbacks, and propagating errors in middleware. Node uses an "error-first callback" convention for returning errors from asynchronous functions, where the first parameter to the callback function is the error object, followed by result data in succeeding parameters. To indicate no error, pass null as the first parameter. The callback function must correspondingly follow the error-first callback convention to meaningfully handle the error. And in Express, the best practice is to use the next() function to propagate errors through the middleware chain.
 
-For more on the fundamentals of error handling, see:
+更多错误（异常）处理, 参考:
 
 * [Error Handling in Node.js](https://www.joyent.com/developers/node/design/errors)
 * [Building Robust Node Applications: Error Handling](https://strongloop.com/strongblog/robust-node-applications-error-handling/) (StrongLoop blog)
@@ -80,7 +80,7 @@ We also don't recommend using [domains](https://nodejs.org/api/domain.html). It 
 
 #### Use try-catch
 
-Try-catch is a JavaScript language construct that you can use to catch exceptions in synchronous code. Use try-catch, for example, to handle JSON parsing errors as shown below.
+Try-catch可在同步编码中使用. 比如, 处理json解析异常：
 
 Use a tool such as [JSHint](http://jshint.com/) or [JSLint](http://www.jslint.com/) to help you find implicit exceptions like [reference errors on undefined variables](http://www.jshint.com/docs/options/#undef).
 
@@ -149,7 +149,7 @@ For more information about error-handling by using promises, see:
 
 ## Things to do in your environment / setup {#in-environment}
 
-Here are some things you can do in your system environment to improve your app's performance:
+参考生产环境中的几点建议来提高应用性能:
 
 * Set NODE_ENV to "production"
 * Ensure your app automatically restarts

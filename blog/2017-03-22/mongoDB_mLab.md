@@ -129,7 +129,7 @@ db.restaurants.find( { "borough": "Manhattan" } )
 db.restaurants.find({"grades.grade": "B"})
 # 大于
 db.restaurants.find( { "grades.score": { $gt: 30 } } )
-#小于
+# 小于
 db.restaurants.find( { "grades.score": { $lt: 10 } } )
 # AND
 db.restaurants.find( { "cuisine": "Italian", "address.zipcode": "10075" } )
