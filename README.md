@@ -2,9 +2,7 @@
 - [Tool](#tools)
 - [Nodejs](#nodejs)
 - [Interview](#interview)
-
-
-
+- [My blog](./blog)
 记录一下不错的学习资源：
 
 - 分享存储平台：[http://pzy.gissky.com/yu](http://pzy.gissky.com/yu)
@@ -26,10 +24,6 @@
 
 - [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
 
-## Article
-
-- [2016 年崛起的 JS 项目](https://risingstars2016.js.org/zh/)
-
 ## DB
 - [phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin)
 
@@ -37,6 +31,8 @@
 
 - [gitbook](https://github.com/GitbookIO/gitbook)
 
+## Editor
+- [vsc](http://i5ting.github.io/vsc/)
 
 ## Code Style
 - http://alloyteam.github.io/CodeGuide/
@@ -67,6 +63,11 @@
 # NOT BAD BOLG
 - http://itlove.wang/
 - http://ethancai.github.io/
+
+# NOT BAD Article
+
+- [2016 年崛起的 JS 项目](https://risingstars2016.js.org/zh/)
+- [Roadmap to becoming a web developer in 2017](https://github.com/kamranahmedse/developer-roadmap)
 
 # BOOKS
 - 《JavaScript dom 编程艺术》

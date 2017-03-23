@@ -149,3 +149,55 @@ http proxy延伸，组装rpc服务，作为微服务的一部分
 场景，是做api还是管理后台，还是h5，不同的应用场景会有不一样的选择
 团队能力，如果团队Node.js经验非常丰富就无所谓，如果不是特别熟，那就至少要有一个人能cover住，如果都没有，那就挑选最成熟的最保守的做吧
 趋势，如果leader大局观不错，综合上面2点，再辅以趋势的话，就非常好，毕竟现在技术革新太快，别你刚学会，别人都不用了，也是比较痛苦的。
+
+# 2017-03-21 18:30:03
+配置ubuntu chrome xx-net:
+Reference:https://github.com/XX-net/XX-Net
+```
+google-chrome --proxy-server="127.0.0.1:8087"
+```
+
+# 2017-03-23 11:07:41
+
+ // 获取评论
+    // function getBookComment(bookId) {
+    //     return axios.get(cfg.api.get_book_comment, {
+    //         params: {
+    //             book_id: bookId
+    //         }
+    //     });
+    // }
+
+    // 获取书籍基本信息
+    // function getBookBaseInfo(bookId) {
+    //     return axios.get(cfg.api.get_book_base_info, {
+    //         params: {
+    //             book_id: bookId
+    //         }
+    //     });
+    // }
+
+    // axios.all([getBookComment(bookId), getBookBaseInfo(bookId)])
+    //     .then(axios.spread(function (commentResult, bookResult) {
+    //             if (bookResult.data.code != 200) {
+    //                 res.render('404');
+    //                 return;
+    //             }
+    //             var commentData = commentResult.data.data || {};
+    //             var bookBaseInfo = bookResult.data.data || {};
+    //
+    //             res.render('book', {
+    //                 title: "书籍详情页",
+    //                 loginURI: cfg.login.uri,
+    //                 commentData: commentData,
+    //                 bookBaseInfo: bookBaseInfo,
+    //                 bookId: bookId
+    //             });
+    //         })
+    //     )
+    //     .catch(function (error) {
+    //         console.log(error);
+    //         res.render('404');
+    //     });
+
+
