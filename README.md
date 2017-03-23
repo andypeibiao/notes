@@ -31,6 +31,8 @@
 
 - [gitbook](https://github.com/GitbookIO/gitbook)
 
+## Editor
+- [vsc](http://i5ting.github.io/vsc/)
 
 ## Code Style
 - http://alloyteam.github.io/CodeGuide/
