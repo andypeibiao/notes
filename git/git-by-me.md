@@ -69,5 +69,4 @@ $ sudo apt-get install git
 ## 保存一小时，可修改时间
 git config credential.helper 'cache --timeout=3600'
 
-
 npm config set registry https://registry.npm.taobao.org 

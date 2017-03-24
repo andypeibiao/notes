@@ -3,6 +3,7 @@
 - [Nodejs](#nodejs)
 - [Interview](#interview)
 - [My blog](./blog)
+
 记录一下不错的学习资源：
 
 - 分享存储平台：[http://pzy.gissky.com/yu](http://pzy.gissky.com/yu)
@@ -19,16 +20,20 @@
 - [httpbin](http://httpbin.org/)
 - [jsbin](http://jsbin.com/?html,css,js,output)
 - [codepen](http://codepen.io/)(CodePen is a playground for the front end web.)
+## CSS
+- [CSS Secrets](All demos:http://play.csssecrets.io/)
 
-#### JQuery
-
+## JQuery
 - [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
+
+## Git
+- https://github.com/progit/progit
+- https://github.com/gotgit/gotgit
 
 ## DB
 - [phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin)
 
 ## Doc
-
 - [gitbook](https://github.com/GitbookIO/gitbook)
 
 ## Editor
@@ -41,9 +46,7 @@
 - https://github.com/adamlu/javascript-style-guide
 - https://github.com/airbnb/javascript
 
-
 ## Admin
-
 - https://github.com/ElemeFE/element-dashboard
 
 # Nodejs
@@ -65,7 +68,6 @@
 - http://ethancai.github.io/
 
 # NOT BAD Article
-
 - [2016 年崛起的 JS 项目](https://risingstars2016.js.org/zh/)
 - [Roadmap to becoming a web developer in 2017](https://github.com/kamranahmedse/developer-roadmap)
 
@@ -90,3 +92,5 @@
 - 《Unix编程艺术》
 - 《代码大全》
 - [JavaScript编程全解](http://www.ituring.com.cn/book/1140)
+- OReilly书籍:http://pan.baidu.com/share/home?uk=2214641459
+
