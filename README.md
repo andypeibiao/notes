@@ -20,8 +20,9 @@
 - [httpbin](http://httpbin.org/)
 - [jsbin](http://jsbin.com/?html,css,js,output)
 - [codepen](http://codepen.io/)(CodePen is a playground for the front end web.)
+
 ## CSS
-- [CSS Secrets](All demos:http://play.csssecrets.io/)
+- [CSS Secrets](http://play.csssecrets.io/)
 
 ## JQuery
 - [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
