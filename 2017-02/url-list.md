@@ -18,11 +18,6 @@
 - https://github.com/BlackrockDigital/startbootstrap
 
 ```
-<% for(item in dataToRender.payInfo.pay_counts){%>
-<label><input type="radio" name="money"> <%=dataToRender.payInfo.pay_counts[item].pay_money%>元（ <%=dataToRender.payInfo.pay_counts[item].user_coin%>阅币）</label>
-<% }; %>
-```
-```
 pm2 start app.js -i max 
 ```
 
