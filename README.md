@@ -39,6 +39,7 @@
 
 ## Editor
 - [vsc](http://i5ting.github.io/vsc/)
+- markdown [typora](https://www.typora.io/)
 
 ## Code Style
 - http://alloyteam.github.io/CodeGuide/
