@@ -1,3 +1,5 @@
+[![](https://img.shields.io/github/issues/ptspzy/notes.svg)](https://github.com/ptspzy/ptspzy/issues)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 # Content
 - [Tool](#tools)
 - [Nodejs](#nodejs)
