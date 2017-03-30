@@ -28,6 +28,8 @@
 - [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
 
 ## Git
+- [a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model/)
+- [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 - https://github.com/progit/progit
 - https://github.com/gotgit/gotgit
 
@@ -39,7 +41,9 @@
 
 ## Editor
 - [vsc](http://i5ting.github.io/vsc/)
+- [vsx - keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)
 - markdown [typora](https://www.typora.io/)
+- [Efficacious-win-software](http://jeffjade.com/2015/10/19/2015-10-18-Efficacious-win-software/?f=jeffajde.com)
 
 ## Code Style
 - http://alloyteam.github.io/CodeGuide/
@@ -50,6 +54,16 @@
 
 ## Admin
 - https://github.com/ElemeFE/element-dashboard
+- https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template
+
+# Vue.js
+- https://github.com/vuejs/awesome-vue
+- https://github.com/ElemeFE
+- https://github.com/vuejs-templates
+
+# Linux
+
+- [linux-command](https://github.com/jaywcjlove/linux-command)
 
 # Nodejs
 - https://cnodejs.org/
