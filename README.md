@@ -8,6 +8,7 @@
 
 记录一下不错的学习资源：
 
+-https://github.com/freeCodeCamp/freeCodeCamp
 - 分享存储平台：[http://pzy.gissky.com/yu](http://pzy.gissky.com/yu)
 - [https://github.com/EthanCai/programming-learning-notes](https://github.com/EthanCai/programming-learning-notes)
 - [https://github.com/EthanCai/linux-system-ops](https://github.com/EthanCai/linux-system-ops)
@@ -26,7 +27,8 @@
 ## CSS
 - [CSS Secrets](http://play.csssecrets.io/)
 
-## JQuery
+## JavaScript && JQuery
+- https://github.com/getify/You-Dont-Know-JS
 - [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
 
 ## Git
@@ -58,6 +60,10 @@
 ## Admin
 - https://github.com/ElemeFE/element-dashboard
 - https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template
+
+# Python
+反而d
+- 
 
 # Vue.js
 - https://github.com/vuejs/awesome-vue
@@ -91,6 +97,7 @@
 - [Roadmap to becoming a web developer in 2017](https://github.com/kamranahmedse/developer-roadmap)
 
 # BOOKS
+- https://github.com/vhf/free-programming-books
 - 《JavaScript dom 编程艺术》
 - 《JavaScript权威指南》
 - [JavaScript高级程序设计（第3版）](http://www.ituring.com.cn/book/946)
