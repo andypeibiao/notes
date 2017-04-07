@@ -75,7 +75,7 @@ tar zxvf jre-8u73-linux-x64.tar.gz
 Java 文件将安装在当前目录中名为 jre1.8.0_73 的目录内。在本示例中，Java 将安装在 /usr/java/jre1.8.0_73 目录中。当安装完成时，您将看到 Done（完成）字样。
 如果要节省磁盘空间，请删除 .tar.gz 文件。
 ```
-[https://www.java.com/zh_CN/download/help/java_printing.xml](https://www.java.com/zh_CN/download/help/java_printing.xml)    
+[https://www.java.com/zh_CN/download/help/linux_x64_install.xml](https://www.java.com/zh_CN/download/help/linux_x64_install.xml)    
 [jdk8-downloads](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ```

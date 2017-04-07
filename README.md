@@ -60,6 +60,8 @@
 ## Admin
 - https://github.com/ElemeFE/element-dashboard
 - https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template
+- https://github.com/taylorchen709/vue-admin
+- https://github.com/omwteam/webAdmin
 
 # Python
 反而d
