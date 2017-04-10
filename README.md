@@ -64,8 +64,6 @@
 - https://github.com/omwteam/webAdmin
 
 # Python
-反而d
-- 
 
 # Vue.js
 - https://github.com/vuejs/awesome-vue
@@ -83,6 +81,11 @@
 - es6支持情况：[ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
 - 全栈工程师培训材料：[https://github.com/ruanyf/jstraining](https://github.com/ruanyf/jstraining)
 - 一起学 Node.js：[https://github.com/nswbmw/N-blog](https://github.com/nswbmw/N-blog)
+
+frame:
+- https://github.com/strongloop/loopback/   
+- http://loopback.io/resources/#compare
+- https://github.com/restify/node-restify
 
 # Interview
 - [Front-end-Interview-questions](https://github.com/hawx1993/Front-end-Interview-questions)

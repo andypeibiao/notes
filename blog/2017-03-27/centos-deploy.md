@@ -96,3 +96,4 @@ npm install -g pm2
     移除服务
     firewall-cmd --zone=public --remove-service=smtp
     ```
+firewall-cmd --zone=public --list-ports
