@@ -6,7 +6,7 @@ $ pm2 save
 $ pm2 startup centos #生成自启动脚本
 $ /usr/local/v6.10.0/lib/node_modules/pm2/bin/pm2 startup centos -u www --hp /home/www
 ```
-**pm2-www.service**:
+**pm2-www\.service**:
 ```
 [Unit]
 Description=PM2 process manager

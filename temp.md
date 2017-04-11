@@ -1,3 +1,50 @@
+# 2017-02-20
+
+- 前后端分离的思考与实践](http://blog.jobbole.com/65513/)
+- [segmentfault头条](https://segmentfault.com/news/frontend)
+
+
+### promise
+
+- [如果你想靠前端技术还房贷，你不能连这个都不会](https://zhuanlan.zhihu.com/p/25259283?refer=fe-mm)   http://www.cnblogs.com/lingtong/p/6409224.html
+- http://es6.ruanyifeng.com/#docs/promise
+- https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve
+
+## 2017-02-22
+
+### templates
+
+- https://getmdl.io/templates/index.html
+- https://github.com/BlackrockDigital/startbootstrap
+
+```
+pm2 start app.js -i max 
+```
+
+https://mos.meituan.com/library/44/MongoDB-installation-and-use/
+
+http://blog.csdn.net/chinagissoft/article/details/51303129
+
+http://httpbin.org/
+
+
+# 资源
+
+- 书籍资源 http://www.36zhen.com/t?id=3448
+- https://zhuanlan.zhihu.com/p/25334672
+- Android等：https://github.com/china-kook/Skill-learn-collect
+
+# interview
+
+- https://github.com/wangwenjie1314/webQd
+
+# FE
+## ES6
+- es6浏览器支持情况 http://kangax.github.io/compat-table/es6/
+- Babel（ES6转码器，将ES6代码转为ES5代码）https://babeljs.io/ 
+
+
+
 ## 2017-01-10 16:01:39
 CSS 、 HTML 、 DOM 、BOM 、 Ajax 、 JavaScript 等
 
@@ -80,26 +127,20 @@ Javascript不是玩具，除了那些公认的糟粕(未经深思熟虑的设计
 
 
 ## 2017年03月16日11:54:39
-http://admin.yueloo.com/frontBundle/output2.html
-http://admin.yueloo.com/frontBundle/input.html
-2.admin.yueloo.com 渠道
-
-
 在传统编译语言的流程中，程序中的一段源代码在执行之前会经历三个步骤，统称为“编
 译”。
 
 引擎，编译器，作用域
 var a = 2;
 1. 遇到 var a ，编译器会询问作用域是否已经有一个该名称的变量存在于同一个作用域的
-集合中。如果是，编译器会忽略该声明，继续进行编译；否则它会要求作用域在当前作
-用域的集合中声明一个新的变量，并命名为 a 。
+   集合中。如果是，编译器会忽略该声明，继续进行编译；否则它会要求作用域在当前作
+   用域的集合中声明一个新的变量，并命名为 a 。
 2. 接下来编译器会为引擎生成运行时所需的代码，这些代码被用来处理 a = 2 这个赋值
-操作。引擎运行时会首先询问作用域，在当前的作用域集合中是否存在一个叫作 a 的
-变量。如果是，引擎就会使用这个变量；如果否，引擎会继续查找该变量（查看 1.3
-节）。
-如果引擎最终找到了 a 变量，就会将 2 赋值给它。否则引擎就会举手示意并抛出一个异
-常！
-
+   操作。引擎运行时会首先询问作用域，在当前的作用域集合中是否存在一个叫作 a 的
+   变量。如果是，引擎就会使用这个变量；如果否，引擎会继续查找该变量（查看 1.3
+   节）。
+   如果引擎最终找到了 a 变量，就会将 2 赋值给它。否则引擎就会举手示意并抛出一个异
+   常！
 总结：变量的赋值操作会执行两个动作，首先编译器会在当前作用域中声明一个变量（如
 果之前没有声明过），然后在运行时引擎会在作用域中查找该变量，如果能够找到就会对
 它赋值
@@ -167,7 +208,7 @@ google-chrome --proxy-server="127.0.0.1:8087"
     //         }
     //     });
     // }
-
+    
     // 获取书籍基本信息
     // function getBookBaseInfo(bookId) {
     //     return axios.get(cfg.api.get_book_base_info, {
@@ -176,7 +217,7 @@ google-chrome --proxy-server="127.0.0.1:8087"
     //         }
     //     });
     // }
-
+    
     // axios.all([getBookComment(bookId), getBookBaseInfo(bookId)])
     //     .then(axios.spread(function (commentResult, bookResult) {
     //             if (bookResult.data.code != 200) {
@@ -201,3 +242,74 @@ google-chrome --proxy-server="127.0.0.1:8087"
     //     });
 
 
+
+
+## 2017年03月25日11:07:44
+
+https://segmentfault.com/a/1190000008322096  前端面试题
+
+http://tingandpengcom/2016/09/05/%E5%89%8D%E7%AB%AF%E8%B7%A8%E5%9F%9F%E8%AF%B7%E6%B1%82%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E8%B7%B5/
+
+https://github.com/ycrao/mynotes/blob/master/php/interview.md
+http://www.jb51.net/article/62516.htm
+
+
+## ２０１７年０３月２８日１８：２８：１７
+
+chown www:www -R /www/network-reading-service-frontend/
+
+
+变量名应该表示what而不是how
+
+
+## 2017年03月30日11:26:31
+http://jeffjade.com/2017/03/11/120-how-to-write-vue-better/
+http://www.csdn.net/article/2015-08-11/2825439-vue
+https://ppt.baomitu.com/d/52096df3#/1
+
+- 数据的双向绑定（通过数据绑定链接View和Model，让数据的变化自动映射为视图的更新）
+- 数据驱动的组件系统（用嵌套的组件树来描述用户界面(而一个组件恰恰可以对应MVVM中的ViewModel)）
+- 基于构建工具的单文件组件格式，即其所提供了强大的loader API，来定义对不同文件格式的预处理逻辑，从而让我们可以将CSS、模板，甚至是自定义的文件格式等，当做JavaScript模块来使用，极大提升了代码的可复用性
+
+http://tigerb.cn/2017/03/26/http/v1.0/new_book
+
+## 2017年04月05日15:45:39
+
+http://ionicframework.com/docs/native/
+http://cordova.apache.org/#getstarted
+http://reactnative.cn/docs/0.42/getting-started.html#content
+
+## 2017年04月06日10:18:36
+http://www.jianshu.com/p/36e55c289d65
+
+
+```
+{
+  "0": {
+    "day_datetime": "2017-04-09",
+    "promotion_channel_uuid": "8b0d893d-1b26-ca3d-43d9-a1904f11bd8d",
+    "promotion_channel_clicks": "0",
+    "promotion_user_register_counts": 0,
+    "promotion_pay_suceess_order_counts": 0,
+    "promotion_pay_success_sum_money": 0
+  },
+  "1": {
+    "day_datetime": "2017-04-10",
+    "promotion_channel_uuid": "8b0d893d-1b26-ca3d-43d9-a1904f11bd8d",
+    "promotion_channel_clicks": "0",
+    "promotion_user_register_counts": 6,
+    "promotion_pay_suceess_order_counts": 1,
+    "promotion_pay_success_sum_money": 100000
+  },
+  "code": 200,
+  "msg": ":promotion:mongodb:differ:success"
+}
+```
+# 2017年04月11日10:48:56
+
+ES5中只有全局作用域和函数作用域，let给ES6增加了块级作用域
+
+为什么需要块级作用域？
+
+- 第一种场景，内层变量可能会覆盖外层变量。
+- 第二种场景，用来计数的循环变量泄露为全局变量。
