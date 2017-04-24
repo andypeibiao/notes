@@ -8,7 +8,11 @@
 
 记录一下不错的学习资源：
 
--https://github.com/freeCodeCamp/freeCodeCamp
+- https://github.com/freeCodeCamp/freeCodeCamp
+- http://www.infoq.com/cn/
+- http://www.ruanyifeng.com/blog/
+- https://segmentfault.com
+
 - 分享存储平台：[http://pzy.gissky.com/yu](http://pzy.gissky.com/yu)
 - [https://github.com/EthanCai/programming-learning-notes](https://github.com/EthanCai/programming-learning-notes)
 - [https://github.com/EthanCai/linux-system-ops](https://github.com/EthanCai/linux-system-ops)
@@ -28,14 +32,44 @@
 - [CSS Secrets](http://play.csssecrets.io/)
 
 ## JavaScript && JQuery
+- http://www.w3school.com.cn/js/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 - https://github.com/getify/You-Dont-Know-JS
 - [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
+
+# Vue.js
+- https://github.com/vuejs/awesome-vue
+- https://github.com/ElemeFE
+- https://github.com/vuejs-templates
+
+# Nodejs
+- 官网API：http://nodejs.org/api/
+- Node.js专业中文社区：https://cnodejs.org/
+- [如何通过饿了么 Node.js 面试](https://elemefe.github.io/node-interview/#/)
+- [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+- es6支持情况：[ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
+- 全栈工程师培训材料：[https://github.com/ruanyf/jstraining](https://github.com/ruanyf/jstraining)
+- 一起学 Node.js：[https://github.com/nswbmw/N-blog](https://github.com/nswbmw/N-blog)
+Book:
+- https://www.byvoid.com/zhs/project/node
+Frame:
+- https://github.com/strongloop/loopback/   
+- http://loopback.io/resources/#compare
+- https://github.com/restify/node-restify
+Project：
+- https://github.com/cnodejs
+- https://github.com/shinygang/Vue-cnodejs
+- https://github.com/lanceli/cnodejs-ionic
 
 ## Git
 - [a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model/)
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 - https://github.com/progit/progit
 - https://github.com/gotgit/gotgit
+
+github:
+
+- https://guides.github.com/
 
 ## DB
 - [phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin)
@@ -65,27 +99,9 @@
 
 # Python
 
-# Vue.js
-- https://github.com/vuejs/awesome-vue
-- https://github.com/ElemeFE
-- https://github.com/vuejs-templates
-
 # Linux
 
 - [linux-command](https://github.com/jaywcjlove/linux-command)
-
-# Nodejs
-- https://cnodejs.org/
-- [如何通过饿了么 Node.js 面试](https://elemefe.github.io/node-interview/#/)
-- [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
-- es6支持情况：[ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
-- 全栈工程师培训材料：[https://github.com/ruanyf/jstraining](https://github.com/ruanyf/jstraining)
-- 一起学 Node.js：[https://github.com/nswbmw/N-blog](https://github.com/nswbmw/N-blog)
-
-frame:
-- https://github.com/strongloop/loopback/   
-- http://loopback.io/resources/#compare
-- https://github.com/restify/node-restify
 
 # Interview
 - [Front-end-Interview-questions](https://github.com/hawx1993/Front-end-Interview-questions)
