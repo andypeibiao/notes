@@ -61,6 +61,10 @@ Project：
 - https://github.com/shinygang/Vue-cnodejs
 - https://github.com/lanceli/cnodejs-ionic
 
+- [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)
+
+## Electron
+- [Awesome Electron](https://github.com/sindresorhus/awesome-electron)
 ## Git
 - [a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model/)
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
@@ -96,12 +100,19 @@ github:
 - https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template
 - https://github.com/taylorchen709/vue-admin
 - https://github.com/omwteam/webAdmin
+- https://github.com/lin-xin/manage-system
+- https://github.com/PanJiaChen/vue-element-admin
 
 # Python
 
 # Linux
 
 - [linux-command](https://github.com/jaywcjlove/linux-command)
+
+# Algorithm & Data Structure
+- https://github.com/parkjs814/AlgorithmVisualizer
+- http://c.biancheng.net/cpp/u/shuju/
+- http://xu-laoshi.cn/shujujiegou/index.html
 
 # Interview
 - [Front-end-Interview-questions](https://github.com/hawx1993/Front-end-Interview-questions)
