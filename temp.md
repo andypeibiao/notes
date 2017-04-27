@@ -340,4 +340,20 @@ Node 在开发高并发、高性能后端服务程序上也有着极大的优势
 - https://github.com/NetEase/pomelo
 - https://github.com/NetEase/lordofpomelo
 
+##2017年04月27日18:35:52
+
+webpack.base.conf.js：
+```
+  externals: {
+    'vue': 'Vue',
+    'vue-router':"VueRouter",
+    'vue-resource':"VueResource"
+  }
+```
+index.html:
+```
+<script src="//cdn.example.com/vue/2.1.0/vue.min.js"></script>
+<script src="//cdn.example.com/vue-router/2.3.0/vue-router.min.js"></script>
+<script src="//cdn.example.com/vue-resource/1.0.3/vue-resource.min.js"></script>
+```
 
