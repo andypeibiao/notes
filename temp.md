@@ -6,7 +6,8 @@
 
 ### promise
 
-- [如果你想靠前端技术还房贷，你不能连这个都不会](https://zhuanlan.zhihu.com/p/25259283?refer=fe-mm)   http://www.cnblogs.com/lingtong/p/6409224.html
+- [如果你想靠前端技术还房贷，你不能连这个都不会](https://zhuanlan.zhihu.com/p/25259283?refer=fe-mm) 
+- http://www.cnblogs.com/lingtong/p/6409224.html
 - http://es6.ruanyifeng.com/#docs/promise
 - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve
 
@@ -356,4 +357,15 @@ index.html:
 <script src="//cdn.example.com/vue-router/2.3.0/vue-router.min.js"></script>
 <script src="//cdn.example.com/vue-resource/1.0.3/vue-resource.min.js"></script>
 ```
+
+技术面试宝典： 很全面的算法和数据结构知识（含代码实现）
+http://blog.jobbole.com/110835/
+
+
+## 2017年04月28日16:26:02
+
+Node调试：
+- Debugger，node内建了调试协议的客户端，启动时带上debug参数
+- Node Inspector
+
 

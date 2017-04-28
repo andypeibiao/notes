@@ -44,6 +44,7 @@
 
 # Nodejs
 - 官网API：http://nodejs.org/api/
+- https://github.com/nodejs/node/wiki
 - Node.js专业中文社区：https://cnodejs.org/
 - [如何通过饿了么 Node.js 面试](https://elemefe.github.io/node-interview/#/)
 - [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
