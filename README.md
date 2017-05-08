@@ -27,6 +27,14 @@
 - [httpbin](http://httpbin.org/)
 - [jsbin](http://jsbin.com/?html,css,js,output)
 - [codepen](http://codepen.io/)(CodePen is a playground for the front end web.)
+- [腾讯移动Web前端知识库](https://github.com/AlloyTeam/Mars)
+- http://www.chinaw3c.org/
+- [淘宝前端团队FED](http://taobaofed.org/)
+- https://github.com/EthanCai/programming-learning-notes/blob/master/webdev-learning-notes.md
+
+## HTML
+
+- [elements-of-html](http://w3c.github.io/elements-of-html/)
 
 ## CSS
 - [CSS Secrets](http://play.csssecrets.io/)
@@ -103,6 +111,7 @@ github:
 - https://github.com/omwteam/webAdmin
 - https://github.com/lin-xin/manage-system
 - https://github.com/PanJiaChen/vue-element-admin
+- https://github.com/reg21st/vue2-management-platform
 
 # Python
 
@@ -124,6 +133,9 @@ github:
 # NOT BAD BOLG
 - http://itlove.wang/
 - http://ethancai.github.io/
+- https://github.com/fouber/blog
+- [2017前端性能优化清单](https://github.com/Findow-team/Blog/issues/11)
+- [浅析前端页面渲染机制](http://blog.codingplayboy.com/2017/03/29/webpage_render/)
 
 # NOT BAD Article
 - [2016 年崛起的 JS 项目](https://risingstars2016.js.org/zh/)
@@ -152,4 +164,11 @@ github:
 - 《代码大全》
 - [JavaScript编程全解](http://www.ituring.com.cn/book/1140)
 - OReilly书籍:http://pan.baidu.com/share/home?uk=2214641459
+
+# 深度学习
+
+[tensorflow](https://github.com/tensorflow/tensorflow):
+- [深度学习利器：TensorFlow实战](http://www.infoq.com/cn/articles/deeplearning-tensorflow-actual-combat?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage)
+- [深度学习利器：分布式TensorFlow及实例分析](http://www.infoq.com/cn/articles/deeplearning-tensorflow-casestudy?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage)
+
 
