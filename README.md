@@ -30,6 +30,7 @@
 - [腾讯移动Web前端知识库](https://github.com/AlloyTeam/Mars)
 - http://www.chinaw3c.org/
 - [淘宝前端团队FED](http://taobaofed.org/)
+- [美团点评技术团队](http://tech.meituan.com/)
 - https://github.com/EthanCai/programming-learning-notes/blob/master/webdev-learning-notes.md
 
 ## HTML
