@@ -86,6 +86,8 @@ github:
 - https://guides.github.com/
 
 ## DB
+- [the-little-redis-book](https://github.com/ilivebox/the-little-redis-book)
+- [the-little-mongodb-book](https://github.com/ilivebox/the-little-mongodb-book)
 - [phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin)
 
 ## Doc

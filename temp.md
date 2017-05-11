@@ -376,3 +376,6 @@ Node调试：
 ## 2017年05月03日12:15:24
 
 http://www.jianshu.com/p/c41cc287d7d4
+
+## 2017年5月11日17:14:01
+- [NoSQL开篇——为什么要使用NoSQL](http://www.infoq.com/cn/news/2011/01/nosql-why)
