@@ -6,20 +6,28 @@
 - [Interview](#interview)
 - [My blog](./blog)
 
-记录一下不错的学习资源：
-
+# Awesome
+- https://github.com/sindresorhus/awesome
 - https://github.com/freeCodeCamp/freeCodeCamp
 - http://www.infoq.com/cn/
 - http://www.ruanyifeng.com/blog/
 - https://segmentfault.com
-
+- [Search Interactive Mind Maps to learn anything](http://learn-anything.xyz/)
 - 分享存储平台：[http://pzy.gissky.com/yu](http://pzy.gissky.com/yu)
 - [https://github.com/EthanCai/programming-learning-notes](https://github.com/EthanCai/programming-learning-notes)
 - [https://github.com/EthanCai/linux-system-ops](https://github.com/EthanCai/linux-system-ops)
 - [https://segmentfault.com/u/trigkit4](https://segmentfault.com/u/trigkit4)
-- RESTful API 设计指南:[http://www.ruanyifeng.com/blog/2014/05/restful_api.html](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+
 
 # TOOLS
+
+- [The most intuitive cross-platform REST API Client](https://github.com/getinsomnia/insomnia)
+
+# API Design References
+- [RESTful API 设计参考文献列表](https://github.com/aisuhua/restful-api-design-references)
+- [Github API V3](https://developer.github.com/v3)
+- [微博API](http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI)
+- [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
 ## FE
 - [devdocs](http://devdocs.io/)
@@ -52,6 +60,11 @@
 - https://github.com/vuejs-templates
 
 # Nodejs
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)
+- [The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)
+- [how to write node programs with streams](https://github.com/substack/stream-handbook)
+
+
 - 官网API：http://nodejs.org/api/
 - https://github.com/nodejs/node/wiki
 - Node.js专业中文社区：https://cnodejs.org/
