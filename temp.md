@@ -368,12 +368,15 @@ Node调试：
 
 
 ## 2017年05月03日12:15:24
-
-<<<<<<< HEAD
 [前端面试--四月二十家前端面试题分享](http://www.jianshu.com/p/c41cc287d7d4)
-=======
 http://www.jianshu.com/p/c41cc287d7d4
 
 ## 2017年5月11日17:14:01
 - [NoSQL开篇——为什么要使用NoSQL](http://www.infoq.com/cn/news/2011/01/nosql-why)
->>>>>>> 0e2e96709305aa80386a91f66c30fb89ed0fbe40
+
+#　2017年5月15日22:24:41
+
+[jQuery与Zepto的异同](http://www.cnblogs.com/colima/p/5289386.html)
+
+>Zepto最初是为移动端开发的库，是jQuery的轻量级替代品，因为它的API和jQuery相似，而文件更小。Zepto最大的优势是它的文件大小，只有8k多，是目前功能完备的库中最小的一个，尽管不大，Zepto所提供的工具足以满足开发程序的需要。
+
