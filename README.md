@@ -91,6 +91,8 @@ github:
 - https://guides.github.com/
 
 ## DB
+- [the-little-redis-book](https://github.com/ilivebox/the-little-redis-book)
+- [the-little-mongodb-book](https://github.com/ilivebox/the-little-mongodb-book)
 - [phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin)
 
 ## Doc
@@ -146,6 +148,7 @@ github:
 # NOT BAD Article
 - [2016 年崛起的 JS 项目](https://risingstars2016.js.org/zh/)
 - [Roadmap to becoming a web developer in 2017](https://github.com/kamranahmedse/developer-roadmap)
+ - [从NodeJS搭建中间层再谈前后端分离](https://www.xingbofeng.com/2017/01/24/%E4%BB%8ENodeJS%E6%90%AD%E5%BB%BA%E4%B8%AD%E9%97%B4%E5%B1%82%E5%86%8D%E8%B0%88%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/?utm_source=tuicool&utm_medium=referral)
 
 # BOOKS
 - https://github.com/vhf/free-programming-books
