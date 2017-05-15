@@ -7,20 +7,20 @@
 - [My blog](./blog)
 
 # Awesome
-- https://github.com/sindresorhus/awesome
-- https://github.com/freeCodeCamp/freeCodeCamp
-- http://www.infoq.com/cn/
-- http://www.ruanyifeng.com/blog/
-- https://segmentfault.com
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+- [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+- [InfoQ](http://www.infoq.com/cn/)
+- [阮一峰博客](http://www.ruanyifeng.com/blog/)
+- [Segmentfault](https://segmentfault.com)
 - [Search Interactive Mind Maps to learn anything](http://learn-anything.xyz/)
-- 分享存储平台：[http://pzy.gissky.com/yu](http://pzy.gissky.com/yu)
-- [https://github.com/EthanCai/programming-learning-notes](https://github.com/EthanCai/programming-learning-notes)
-- [https://github.com/EthanCai/linux-system-ops](https://github.com/EthanCai/linux-system-ops)
+- [EthanCai/programming-learning-notes](https://github.com/EthanCai/programming-learning-notes)
+- [EthanCai/linux-system-ops](https://github.com/EthanCai/linux-system-ops)
 - [https://segmentfault.com/u/trigkit4](https://segmentfault.com/u/trigkit4)
 
 
 # TOOLS
 
+- [devdocs](http://devdocs.io/)
 - [The most intuitive cross-platform REST API Client](https://github.com/getinsomnia/insomnia)
 
 # API Design References
@@ -29,17 +29,22 @@
 - [微博API](http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI)
 - [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
+
 ## FE
+- [frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
 - [devdocs](http://devdocs.io/)
 - [MDN](https://developer.mozilla.org/en-US/)
 - [httpbin](http://httpbin.org/)
 - [jsbin](http://jsbin.com/?html,css,js,output)
 - [codepen](http://codepen.io/)(CodePen is a playground for the front end web.)
+- [ChinaW3C](http://www.chinaw3c.org/)
+- [阿里UED](http://www.aliued.com/)
 - [腾讯移动Web前端知识库](https://github.com/AlloyTeam/Mars)
-- http://www.chinaw3c.org/
 - [淘宝前端团队FED](http://taobaofed.org/)
+- [百度FEX](http://fex.baidu.com/)
 - [美团点评技术团队](http://tech.meituan.com/)
-- https://github.com/EthanCai/programming-learning-notes/blob/master/webdev-learning-notes.md
+- [ElemeFE](https://github.com/ElemeFE)
+- [EthanCai:webdev-learning-notes](https://github.com/EthanCai/programming-learning-notes/blob/master/webdev-learning-notes.md)
 
 ## HTML
 
@@ -47,6 +52,8 @@
 
 ## CSS
 - [CSS Secrets](http://play.csssecrets.io/)
+- [学习CSS布局](http://zh.learnlayout.com/)
+- [[译]我是如何开始制作CSS图片的](https://segmentfault.com/a/1190000008627248?winzoom=1)
 
 ## JavaScript && JQuery
 - http://www.w3school.com.cn/js/
@@ -67,14 +74,16 @@
 
 - 官网API：http://nodejs.org/api/
 - https://github.com/nodejs/node/wiki
-- Node.js专业中文社区：https://cnodejs.org/
+- [Node.js专业中文社区](https://cnodejs.org/)
 - [如何通过饿了么 Node.js 面试](https://elemefe.github.io/node-interview/#/)
-- [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
-- es6支持情况：[ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
-- 全栈工程师培训材料：[https://github.com/ruanyf/jstraining](https://github.com/ruanyf/jstraining)
-- 一起学 Node.js：[https://github.com/nswbmw/N-blog](https://github.com/nswbmw/N-blog)
+- [ECMAScript 6 入门（阮一峰）](http://es6.ruanyifeng.com/)
+- [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
+- [全栈工程师培训材料（阮一峰）](https://github.com/ruanyf/jstraining)
+- [一起学 Node.js ( N-blog )](https://github.com/nswbmw/N-blog)
+
   Book:
 - https://www.byvoid.com/zhs/project/node
+
   Frame:
 - https://github.com/strongloop/loopback/   
 - http://loopback.io/resources/#compare
@@ -88,6 +97,11 @@
 
 ## Electron
 - [Awesome Electron](https://github.com/sindresorhus/awesome-electron)
+
+# Hybrid Web
+
+[Hybrid Web](./blog/2017-04-05/index.md)
+
 ## Git
 - [a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model/)
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
@@ -187,5 +201,10 @@ github:
 [tensorflow](https://github.com/tensorflow/tensorflow):
 - [深度学习利器：TensorFlow实战](http://www.infoq.com/cn/articles/deeplearning-tensorflow-actual-combat?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage)
 - [深度学习利器：分布式TensorFlow及实例分析](http://www.infoq.com/cn/articles/deeplearning-tensorflow-casestudy?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage)
+
+## 设计
+
+- [dribbble](https://dribbble.com/) (What are you working on? Dribbble is show and tell for designers.)
+
 
 
