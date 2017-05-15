@@ -1,9 +1,3 @@
-# 2017-02-20
-
-- 前后端分离的思考与实践](http://blog.jobbole.com/65513/)
-- [segmentfault头条](https://segmentfault.com/news/frontend)
-
-
 ### promise
 
 - [如果你想靠前端技术还房贷，你不能连这个都不会](https://zhuanlan.zhihu.com/p/25259283?refer=fe-mm) 
@@ -375,4 +369,4 @@ Node调试：
 
 ## 2017年05月03日12:15:24
 
-http://www.jianshu.com/p/c41cc287d7d4
+[前端面试--四月二十家前端面试题分享](http://www.jianshu.com/p/c41cc287d7d4)

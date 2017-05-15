@@ -21,7 +21,10 @@
 
 # TOOLS
 
+- [devdocs](http://devdocs.io/)
+
 ## FE
+- [frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
 - [devdocs](http://devdocs.io/)
 - [MDN](https://developer.mozilla.org/en-US/)
 - [httpbin](http://httpbin.org/)
@@ -39,6 +42,8 @@
 
 ## CSS
 - [CSS Secrets](http://play.csssecrets.io/)
+- [学习CSS布局](http://zh.learnlayout.com/)
+- [[译]我是如何开始制作CSS图片的](https://segmentfault.com/a/1190000008627248?winzoom=1)
 
 ## JavaScript && JQuery
 - http://www.w3school.com.cn/js/
@@ -171,5 +176,10 @@ github:
 [tensorflow](https://github.com/tensorflow/tensorflow):
 - [深度学习利器：TensorFlow实战](http://www.infoq.com/cn/articles/deeplearning-tensorflow-actual-combat?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage)
 - [深度学习利器：分布式TensorFlow及实例分析](http://www.infoq.com/cn/articles/deeplearning-tensorflow-casestudy?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage)
+
+## 设计
+
+- [dribbble](https://dribbble.com/) (What are you working on? Dribbble is show and tell for designers.)
+
 
 
