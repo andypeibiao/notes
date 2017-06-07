@@ -23,6 +23,7 @@
 - [devdocs](http://devdocs.io/)
 - [The most intuitive cross-platform REST API Client](https://github.com/getinsomnia/insomnia)
 - [Module Counts](http://www.modulecounts.com/)
+- [Ubuntu中文输入法IBus](http://wiki.ubuntu.org.cn/IBus)
 
 # API Design References
 - [RESTful API 设计参考文献列表](https://github.com/aisuhua/restful-api-design-references)
