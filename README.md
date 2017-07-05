@@ -2,9 +2,11 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 # Content
 - [Tool](#tools)
+- [FE](#fe)
 - [Nodejs](#nodejs)
 - [Interview](#interview)
 - [My blog](./blog)
+- [gulp](./gulp)
 
 # Awesome
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
@@ -32,7 +34,8 @@
 - [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
 
-## FE
+# FE
+- [front-end-guide](https://github.com/grab/front-end-guide)
 - [frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
 - [devdocs](http://devdocs.io/)
 - [MDN](https://developer.mozilla.org/en-US/)
@@ -57,10 +60,10 @@
 - [学习CSS布局](http://zh.learnlayout.com/)
 - [[译]我是如何开始制作CSS图片的](https://segmentfault.com/a/1190000008627248?winzoom=1)
 
-## JavaScript && JQuery
+## JavaScript
 - http://www.w3school.com.cn/js/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
-- https://github.com/getify/You-Dont-Know-JS
+- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 - [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
 
 # Vue.js
@@ -70,12 +73,13 @@
 
 # Nodejs
 - [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)
+- [Duration in milliseconds](https://rawgit.com/krausest/js-framework-benchmark/master/webdriver-ts/table.html)  
 - [The Art of Node](https://github.com/maxogden/art-of-node#the-art-of-node)
 - [how to write node programs with streams](https://github.com/substack/stream-handbook)
+- [Node.js Long-term Support](https://github.com/nodejs/LTS#lts_schedule)
+- [Node.js Changelog](https://github.com/nodejs/node/blob/v6.2.1/CHANGELOG.md)
 
 
-- 官网API：http://nodejs.org/api/
-- https://github.com/nodejs/node/wiki
 - [Node.js专业中文社区](https://cnodejs.org/)
 - [如何通过饿了么 Node.js 面试](https://elemefe.github.io/node-interview/#/)
 - [ECMAScript 6 入门（阮一峰）](http://es6.ruanyifeng.com/)
