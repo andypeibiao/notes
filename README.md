@@ -1,3 +1,5 @@
+>There is nothing noble in being superior to your fellow man; True nobility is being superior to your former self
+
 [![](https://img.shields.io/github/issues/ptspzy/notes.svg)](https://github.com/ptspzy/ptspzy/issues)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 # Content
