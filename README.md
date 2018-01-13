@@ -2,6 +2,9 @@
 
 [![](https://img.shields.io/github/issues/ptspzy/notes.svg)](https://github.com/ptspzy/ptspzy/issues)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+
+[总结](https://github.com/ptspzy/notes/issues?q=is%3Aissue+is%3Aopen+label%3A%E6%80%BB%E7%BB%93)
+---------
 # Content
 - [Tool](#tools)
 - [FE](#fe)
