@@ -4,8 +4,6 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 
-<script src="https://gist.github.com/anvaka/8e8fa57c7ee1350e3491.js"></script>
-
 [总结](https://github.com/ptspzy/notes/issues)
 ---------
 # Content
